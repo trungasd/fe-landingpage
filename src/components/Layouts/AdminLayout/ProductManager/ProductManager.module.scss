@@ -1,0 +1,204 @@
+.product__manager {
+    margin-top: 80px;
+}
+
+.content__title {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+/* wrap */
+
+.wrap-content__enter {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.content__enter {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* search bar */
+.wrap__search {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__search {
+    width: 92%;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+    border: #999 solid 1px;
+    border-radius: 5px;
+}
+
+.btn__search {
+    width: 8%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn__search:hover {
+    background-color: #0069d9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+/* form enter product */
+.wrap__enter-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.item__enter-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.item__enter-info label {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.item__enter-info input {
+    padding: 10px;
+    font-size: 16px;
+    height: 45px;
+    border-radius: 5px;
+    border: #999 solid 1px;
+    margin-right: 10px;
+}
+
+.btn__add-product {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn__add-product:hover {
+    background-color: #0069d9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn__update-product {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn__update-product:hover {
+    background-color: #0069d9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn__delete-product {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e04522;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn__delete-product:hover {
+    background-color: #d32f2f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn__edit-product {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn__edit-product:hover {
+    background-color: #ffab00;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* Style for the table container */
+.wrap__product-list {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Basic table styling */
+.table__product {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+/* Header styling */
+.table__product thead th {
+    padding: 12px 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Body styling */
+.table__product tbody td {
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    color: #333;
+}
+
+/* Center align the text in the table */
+.table__product th, .table__product td {
+    text-align: center;
+}
+
+/* Make rows alternate background colors for better readability */
+.table__product tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Add a subtle hover effect for rows */
+.table__product tbody tr:hover {
+    background-color: #f1f1f1;
+}

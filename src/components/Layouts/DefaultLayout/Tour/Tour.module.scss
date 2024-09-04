@@ -1,0 +1,78 @@
+.tour {
+    margin-top: 85px;
+    padding: 85px 0;
+    background: #f7fbff;
+}
+
+.tour__inner {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+.tour__media {
+    width: 48%;
+}
+
+.tour__images {
+    position: relative;
+    padding: 0 58px 121px 0;
+}
+
+.tour__img {
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.tour__img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 332px;
+    height: 370px;
+}
+
+.section-heading {
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #10375c;
+    margin-bottom: 20px;
+}
+
+.section-desc {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #575f66;
+    margin-bottom: 20px;
+}
+
+.btn {
+    --height: 60px;
+    display: inline-block;
+    min-width: 205px;
+    height: var(--height);
+    padding: 0 20px;
+    border-radius: 99px;
+    border: 1px solid #2e80ce;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: var(--height);
+    color: #fff;
+    background: #2e80ce;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}

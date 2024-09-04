@@ -1,0 +1,171 @@
+.news__manager {
+    margin-top: 80px;
+}
+
+.content__title {
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+/* wrap */
+
+.wrap-content__enter {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.content__enter {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.wrap__enter-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.item__enter-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.item__enter-info label {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.item__enter-info input {
+    padding: 10px;
+    font-size: 16px;
+    height: 45px;
+    border-radius: 5px;
+    border: #999 solid 1px;
+    margin-right: 10px;
+}
+
+.btn__add-news {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn__add-news:hover {
+    background-color: #0069d9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn__update-news {
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn__update-news:hover {
+    background-color: #0069d9;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn__delete-news {
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e04522;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn__delete-news:hover {
+    background-color: #d32f2f;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn__edit-news {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ffc107;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn__edit-news:hover {
+    background-color: #ffab00;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* Style for the table container */
+.wrap__news-list {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Basic table styling */
+.table__news {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+/* Header styling */
+.table__news thead th {
+    padding: 12px 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Body styling */
+.table__news tbody td {
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    color: #333;
+}
+
+/* Center align the text in the table */
+.table__news th, .table__news td {
+    text-align: center;
+}
+
+/* Make rows alternate background colors for better readability */
+.table__news tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Add a subtle hover effect for rows */
+.table__news tbody tr:hover {
+    background-color: #f1f1f1;
+}
