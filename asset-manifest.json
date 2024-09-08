@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fe-landingpage/static/css/main.a880d97e.css",
+    "main.js": "/fe-landingpage/static/js/main.bf93e3e0.js",
+    "static/js/453.15aefea3.chunk.js": "/fe-landingpage/static/js/453.15aefea3.chunk.js",
+    "static/media/about_img.png": "/fe-landingpage/static/media/about_img.21bc404b52e59c6435ea.png",
+    "static/media/hero2.webp": "/fe-landingpage/static/media/hero2.faf0e47d9c62e7be830c.webp",
+    "static/media/event_tour.png": "/fe-landingpage/static/media/event_tour.0d775ff6ca893237732a.png",
+    "static/media/hero1.webp": "/fe-landingpage/static/media/hero1.8b315f9d9f9010a2f448.webp",
+    "static/media/event_tour2.png": "/fe-landingpage/static/media/event_tour2.ed7bfdf358b3835484ed.png",
+    "static/media/news1.png": "/fe-landingpage/static/media/news1.fb86d6f67b9e101711b2.png",
+    "static/media/pruduct1.jpg": "/fe-landingpage/static/media/pruduct1.1d804cb5d67b072ff7fa.jpg",
+    "static/media/agentLogin.png": "/fe-landingpage/static/media/agentLogin.61e744d8006f517fa3a3.png",
+    "static/media/logo.webp": "/fe-landingpage/static/media/logo.2e249ddbed1019aa87b1.webp",
+    "index.html": "/fe-landingpage/index.html",
+    "main.a880d97e.css.map": "/fe-landingpage/static/css/main.a880d97e.css.map",
+    "main.bf93e3e0.js.map": "/fe-landingpage/static/js/main.bf93e3e0.js.map",
+    "453.15aefea3.chunk.js.map": "/fe-landingpage/static/js/453.15aefea3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a880d97e.css",
+    "static/js/main.bf93e3e0.js"
+  ]
+}
