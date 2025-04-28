@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #10375c;
+    width: 80%;
+    height: 60px;
+    border-left: #12314f solid 3px;
+}
+
+.clock {
+    font-weight: 600;
+    color: #fff;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.date {
+    display: block;
+}
+
+.logout {    
+    margin-right: 15px;
+    padding: 21px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #10375c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s, border-radius 0.25s; /* Áp dụng transition cho các thuộc tính */
+}
+
+.logout:hover {
+    color: #10375c;
+    background-color: #c6defd;
+    transition: 0.5s;
+}

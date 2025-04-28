@@ -1,0 +1,93 @@
+.login {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.login-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: content;
+    padding-left: 100px;
+    background-color: white;
+}
+
+.login-header {
+    margin-top: 50px;
+}
+
+.login-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.login-header p {
+    margin-top: 20px;
+    opacity: .7;
+}
+
+.login-form {
+    width: 450px;
+    margin-top: 50px;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.form-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.labelEmail[for=email],
+.labelPass[for=password]{
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: 4600;
+}
+
+.inputEmail[type='email'],
+.inputPass[type='password'],
+.inputPass[type='text'] {
+    border: 1px solid black;
+    height: 55px;
+    padding: 0 30px;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 100px;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    transform: translateY(-60%);
+    cursor: pointer;
+    width: 30px;
+}
+
+.btn-login {
+    border: none;
+    padding: 1rem;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.btn-login:hover {
+    background: black;
+    color: white;
+}
+
+.login-right img {
+    width: 100%;
+    padding-top: 50px;
+}
